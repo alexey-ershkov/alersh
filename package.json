@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack server --mode development",
-    "build": "webpack --mode production"
+    "build": "rimraf ./dist && NODE_ENV=production webpack --mode production"
   },
   "author": "alersh",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "sass-loader": "^12.3.0",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -23,8 +24,11 @@
     "autoprefixer": "^10.4.0",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^6.0.1",
     "postcss": "^8.4.4",
     "postcss-loader": "^6.2.1",
+    "rimraf": "^3.0.2",
     "style-loader": "^3.3.1",
     "tailwindcss": "^2.2.19",
     "ts-loader": "^9.2.6",
