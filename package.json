@@ -53,5 +53,10 @@
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
+  },
+  "lint-staged": {
+    "*.{tsx,ts}": [
+      "eslint --fix ./src --ext .ts,.tsx"
+    ]
   }
 }
