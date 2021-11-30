@@ -30,7 +30,7 @@ module.exports = (env) => ({
                 }
             },
             {
-                test: /\.s?css$/i,
+                test: /\.s?[ca]ss$/i,
                 include: path.resolve(__dirname, 'src'),
                 exclude: /node_modules/,
                 use: [
