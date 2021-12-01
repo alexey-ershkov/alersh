@@ -1,14 +1,11 @@
 import './index.scss';
 
 import React from 'react';
-import styled from 'styled-components';
 
-const StyledDiv = styled.div`
-  color: red;
-`;
+import HomePage from './pages/home';
 
 const App = () => {
-  return <StyledDiv className="test"> react app ts </StyledDiv>;
+  return <HomePage />;
 };
 
 export default App;
