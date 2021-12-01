@@ -2,12 +2,18 @@ import portrait from 'assets/portrait.jpeg';
 import vk_logo from 'assets/VK_logo.png';
 import React from 'react';
 
+import Title from '../../../../ui/components/Title';
+
 const MainInfo = () => {
   return (
     <div className="flex items-center justify-center flex-col">
-      <img src={portrait} className="rounded-full border-black border-4 w-64 h-64" alt="portrait" />
-      <div className="text-black font-sans text-6xl">Alexey Ershkov</div>
-      <div className="text-gray-500 font-sans text-xl flex items-center">
+      <img
+        src={portrait}
+        className="rounded-full border-red-600 border-4 w-64 h-64"
+        alt="portrait"
+      />
+      <Title>Alexey Ershkov</Title>
+      <div className="text-gray-500 font-sans text-2xl flex items-center">
         Frontend Web Developer at
         <a
           href="https://vk.company/ru/"
