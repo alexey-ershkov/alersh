@@ -9,8 +9,8 @@ interface Props {
 
 const TextWithBoldNaming: React.FC<Props> = ({ boldText, text }) => {
   return (
-    <div className="flex flex-col items-end justify-between text-right">
-      <Text className="w-10/12">
+    <div className="flex flex-col items-end justify-between">
+      <Text className="w-full">
         <div className="font-bold">{boldText}</div>
         {text}
       </Text>

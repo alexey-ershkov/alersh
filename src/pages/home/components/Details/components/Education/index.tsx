@@ -11,10 +11,15 @@ interface Props {
 
 const Education: React.FC<Props> = ({ className = '' }) => {
   return (
-    <div className={`flex flex-col items-end justify-center ${className}`}>
+    <div className={`flex flex-col items-start justify-center ${className}`}>
       <Title>Education</Title>
-      <div className="flex items-center justify-center h-60">
-        <div>
+      <div className="flex items-start justify-center h-56">
+        <div className="flex flex-col h-4/5 w-32 items-center justify-around">
+          <Text className="text-red-600 font-bold">2018 - Current</Text>
+          <Text className="text-red-600 font-bold">2019 - 2021</Text>
+        </div>
+        <Divider />
+        <div className="w-64 flex flex-col justify-center">
           <TextWithBoldNaming
             boldText="Bauman Moscow State Technical University"
             text="Robotics and Complex Automation (CAD developer)"
@@ -23,11 +28,6 @@ const Education: React.FC<Props> = ({ className = '' }) => {
             boldText="Mail.ru Group Programming Course"
             text="System Architecture"
           />
-        </div>
-        <Divider />
-        <div className="flex flex-col h-4/5 w-32 items-center justify-around">
-          <Text className="text-red-600 font-bold">2018 - Current</Text>
-          <Text className="text-red-600 font-bold">2019 - 2021</Text>
         </div>
       </div>
     </div>

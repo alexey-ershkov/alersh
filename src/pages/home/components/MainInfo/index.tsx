@@ -7,7 +7,11 @@ import Title from '../../../../ui/components/Title';
 const MainInfo = () => {
   return (
     <div className="flex items-center justify-center flex-col">
-      <img src={portrait} className="rounded-full border-black border-4 w-64 h-64" alt="portrait" />
+      <img
+        src={portrait}
+        className="rounded-full border-red-600 border-4 w-64 h-64"
+        alt="portrait"
+      />
       <Title>Alexey Ershkov</Title>
       <div className="text-gray-500 font-sans text-2xl flex items-center">
         Frontend Web Developer at

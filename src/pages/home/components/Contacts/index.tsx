@@ -9,7 +9,7 @@ import Title from '../../../../ui/components/Title';
 const Contacts = (): React.ReactElement => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <Title>Content & Social</Title>
+      <Title>Contacts & Social</Title>
       <div className="flex flex-col items-start justify-center mt-2">
         <TextWithIcon icon={<LocationMarkerIcon />} text="Moscow, Russia" />
         <TextWithIcon icon={<AtSymbolIcon />} text="alersh@internet.ru" />
