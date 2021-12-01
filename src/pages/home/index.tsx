@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Contacts from './components/Contacts';
-import MainInfo from './components/MainInfo';
 import Details from './components/Details';
+import MainInfo from './components/MainInfo';
 
 const HomePage = () => {
   return (
