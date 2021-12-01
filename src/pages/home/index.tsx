@@ -11,9 +11,7 @@ const HomePage = () => {
         <MainInfo />
         <Contacts />
       </div>
-      <div>
-        <Details />
-      </div>
+      <Details />
     </>
   );
 };

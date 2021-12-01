@@ -9,16 +9,16 @@ import Skills from './components/Skills';
 
 const Details = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-1/2">
+    <div className="w-full h-auto md:h-screen flex justify-center items-center flex-col md:flex-row">
+      <div className="w-full md:w-1/2">
         <Expertise />
         <Skills />
       </div>
       <Divider />
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <AboutMe />
         <Languages />
-        <Education className="mt-2" />
+        <Education />
       </div>
     </div>
   );
