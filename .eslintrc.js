@@ -20,6 +20,8 @@ module.exports = {
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
+    'react/prop-types': 'off',
+    'react/require-default-props': 'off',
     'react/function-component-definition': [
       'error',
       {
