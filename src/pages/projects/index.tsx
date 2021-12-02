@@ -3,6 +3,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loader-spinner';
 
+import Link from '../../ui/components/Link';
 import Title from '../../ui/components/Title';
 import ProjectCard from './components/ProjectCard';
 
@@ -27,6 +28,11 @@ const Projects = () => {
 
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
+      <Link
+        to="/"
+        text="< Назад"
+        className="order-last block w-5/6 m-4 md:w-auto md:absolute h-10 top-4 left-6"
+      />
       <Title>Github Projects</Title>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
         {repos.map((repo, idx) => (

@@ -14,7 +14,7 @@ const Education: React.FC = () => {
       <div className="flex items-start justify-center h-80 md:h-56">
         <div className="flex flex-col h-4/5 w-32 items-center justify-around">
           {educationData.map(({ yearFrom, yearTo }, idx) => (
-            <Text key={idx} className="text-red-600 font-bold">
+            <Text key={idx} className="text-red-500 font-bold">
               {yearFrom} - {yearTo}
             </Text>
           ))}

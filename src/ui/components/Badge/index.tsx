@@ -23,7 +23,7 @@ const BadgeWrapper: React.FC<Partial<Props>> = ({ url, children, className }) =>
 
 const getColorClasses = (color: BadgeColor) => {
   if (color === 'red') {
-    return 'bg-red-100 text-red-600 group-hover:bg-white';
+    return 'bg-red-100 text-red-500 group-hover:bg-white';
   }
 
   return 'bg-white text-black';

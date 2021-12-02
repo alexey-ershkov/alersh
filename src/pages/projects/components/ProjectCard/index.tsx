@@ -8,7 +8,7 @@ export const ProjectCard: React.FC<Repo> = ({ name, url, description, user, upda
     <a
       target="_blank"
       href={url}
-      className="rounded-lg group hover:bg-red-600 card hover:border-transparent hover:shadow-lg border border-gray-500 w-72 h-32 p-4"
+      className="rounded-lg group hover:bg-red-500 active:bg-red-500 card hover:border-transparent hover:shadow-lg active:shadow-lg border border-gray-500 w-72 h-32 p-4"
       rel="noreferrer"
     >
       <div className="text-lg truncate font-medium text-black group-hover:text-white">{name}</div>

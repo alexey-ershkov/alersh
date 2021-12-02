@@ -9,7 +9,7 @@ const MainInfo = () => {
     <div className="flex items-center justify-center flex-col">
       <img
         src={portrait}
-        className="rounded-full border-red-600 border-4 w-64 h-64"
+        className="rounded-full border-red-500 border-4 w-64 h-64"
         alt="portrait"
       />
       <Title>Alexey Ershkov</Title>
