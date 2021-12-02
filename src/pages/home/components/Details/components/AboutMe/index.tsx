@@ -6,11 +6,7 @@ import Text from '../../../../../../ui/components/Text';
 import Title from '../../../../../../ui/components/Title';
 import { aboutMeData, aboutMeText } from './data';
 
-interface Props {
-  className?: string;
-}
-
-const AboutMe: React.FC<Props> = ({ className = '' }) => {
+const AboutMe: React.FC = () => {
   return (
     <InfoContainer>
       <Title>About Me</Title>
