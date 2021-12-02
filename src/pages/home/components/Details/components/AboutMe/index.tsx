@@ -10,8 +10,8 @@ const AboutMe: React.FC = () => {
   return (
     <InfoContainer>
       <Title>About Me</Title>
-      {aboutMeData.map((data) => (
-        <NamedText {...data} />
+      {aboutMeData.map((data, idx) => (
+        <NamedText key={idx} {...data} />
       ))}
       <Text className="text-center md:text-left  w-5/6 mt-2 whitespace-pre-line">
         {aboutMeText}

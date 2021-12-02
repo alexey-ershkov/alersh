@@ -13,6 +13,7 @@ module.exports = (env) => ({
     filename: '[contenthash].bundle.js',
   },
   devServer: {
+    historyApiFallback: true,
     port: 3000,
     watchFiles: path.join(__dirname, '/src'),
   },

@@ -13,16 +13,16 @@ const Education: React.FC = () => {
       <Title>Education</Title>
       <div className="flex items-start justify-center h-80 md:h-56">
         <div className="flex flex-col h-4/5 w-32 items-center justify-around">
-          {educationData.map(({ yearFrom, yearTo }) => (
-            <Text className="text-red-600 font-bold">
+          {educationData.map(({ yearFrom, yearTo }, idx) => (
+            <Text key={idx} className="text-red-600 font-bold">
               {yearFrom} - {yearTo}
             </Text>
           ))}
         </div>
         <Divider />
         <div className="w-40 md:w-64 flex flex-col justify-center">
-          {educationData.map(({ educationName, educationProgram }) => (
-            <TextWithBoldNaming boldText={educationName} text={educationProgram} />
+          {educationData.map(({ educationName, educationProgram }, idx) => (
+            <TextWithBoldNaming key={idx} boldText={educationName} text={educationProgram} />
           ))}
         </div>
       </div>
