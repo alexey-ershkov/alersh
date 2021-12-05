@@ -9,8 +9,8 @@ const Skills = () => {
   return (
     <InfoContainer alignRight>
       <Title>Skills</Title>
-      {skillsData.map((data) => (
-        <LinearGrade {...data} />
+      {skillsData.map((data, idx) => (
+        <LinearGrade key={idx} {...data} />
       ))}
     </InfoContainer>
   );

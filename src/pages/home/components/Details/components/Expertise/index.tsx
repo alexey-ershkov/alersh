@@ -9,8 +9,8 @@ const Expertise = () => {
   return (
     <InfoContainer alignRight>
       <Title>Expertise</Title>
-      {expertiseData.map((data) => (
-        <LinearGrade {...data} />
+      {expertiseData.map((data, idx) => (
+        <LinearGrade key={idx} {...data} />
       ))}
     </InfoContainer>
   );

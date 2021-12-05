@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AtSymbolIcon, LocationMarkerIcon } from '@heroicons/react/solid';
 import React from 'react';
 
+import Link from '../../../../ui/components/Link';
 import TextWithIcon from '../../../../ui/components/TextWithIcon';
 import Title from '../../../../ui/components/Title';
 
@@ -19,6 +20,7 @@ const Contacts = (): React.ReactElement => {
           text="@alexey_ershkov"
         />
       </div>
+      <Link to="/projects" text="Github Projects" className="mt-6 w-5/6" />
     </div>
   );
 };
