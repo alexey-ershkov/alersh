@@ -18,7 +18,7 @@ const MessageModal = () => {
     setIsOpen(false);
     reset();
     axios
-      .post('http://localhost:4000/message', {
+      .post(`${process.env.API_URL}/message`, {
         name,
         message,
       })

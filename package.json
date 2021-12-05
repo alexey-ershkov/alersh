@@ -4,8 +4,8 @@
   "description": "Alexey Ershkov CV Website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack server --mode development",
-    "build": "rimraf ./dist && NODE_ENV=production webpack --mode production",
+    "start": "webpack server --env API_URL=http://localhost:4000 --mode development",
+    "build": "rimraf ./dist && NODE_ENV=production webpack --env API_URL=http://80.249.149.122:4000 --mode production",
     "lint": "eslint ./src --ext .ts,.tsx",
     "lint:fix": "eslint --fix ./src --ext .ts,.tsx"
   },

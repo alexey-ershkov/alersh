@@ -12,7 +12,7 @@ const Projects = () => {
   const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
-    axios.get<Repo[]>('http://localhost:4000').then((resp) => {
+    axios.get<Repo[]>(process.env.API_URL).then((resp) => {
       setRepos(resp.data);
       setIsLoading(false);
     });
