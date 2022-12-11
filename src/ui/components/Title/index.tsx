@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Title: React.FC<Props> = ({ children, className = '' }) => {
-  return <div className={`font-sans text-5xl my-3 ${className}`}>{children}</div>;
+  return <div className={`font-sans text-4xl my-3 ${className}`}>{children}</div>;
 };
 
 export default Title;

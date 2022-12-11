@@ -13,8 +13,8 @@ const Contacts = (): React.ReactElement => {
       <Title>Contacts & Social</Title>
       <div className="flex flex-col items-start justify-center mt-2">
         <TextWithIcon icon={<LocationMarkerIcon />} text="Moscow, Russia" />
-        <TextWithIcon icon={<AtSymbolIcon />} text="alersh@internet.ru" />
-        <TextWithIcon icon={<AtSymbolIcon />} text="a.ershkov@vk.team" />
+        <TextWithIcon icon={<AtSymbolIcon />} text="alexey.ershkov@gmail.com" />
+        <TextWithIcon icon={<AtSymbolIcon />} text="ale.rsh@ya.ru" />
         <TextWithIcon
           icon={<FontAwesomeIcon size="2x" icon={faTelegram} />}
           text="@alexey_ershkov"

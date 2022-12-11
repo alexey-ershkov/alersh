@@ -6,6 +6,7 @@ import Education from './components/Education';
 import Expertise from './components/Expertise';
 import Languages from './components/Languages';
 import Skills from './components/Skills';
+import WorkExperience from './components/WorkExperience';
 
 const Details = () => {
   return (
@@ -13,6 +14,7 @@ const Details = () => {
       <div className="w-full md:w-1/2">
         <Expertise />
         <Skills />
+        <WorkExperience />
       </div>
       <Divider />
       <div className="w-full md:w-1/2">

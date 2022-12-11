@@ -1,5 +1,4 @@
-import portrait from 'assets/portrait.jpeg';
-import vk_logo from 'assets/VK_logo.png';
+import portrait from 'assets/portrait.jpg';
 import React from 'react';
 
 import Title from '../../../../ui/components/Title';
@@ -14,15 +13,7 @@ const MainInfo = () => {
       />
       <Title>Alexey Ershkov</Title>
       <div className="text-gray-500 font-sans text-2xl flex items-center">
-        Frontend Web Developer at
-        <a
-          href="https://vk.company/ru/"
-          className="ml-2 h-6 w-6 inline-block"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={vk_logo} alt="vk_logo" />
-        </a>
+        Frontend Web Developer
       </div>
     </div>
   );
