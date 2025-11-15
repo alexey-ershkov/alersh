@@ -8,7 +8,7 @@ import Image from 'next/image';
 const MainInfo = () => {
   return (
     <div className={styles.container}>
-      <Image src="/portrait.jpg" alt="Alexey Ershkov Photo" width={224} height={224} className={styles.portrait} />
+      <Image src="/portrait.jpg" alt="Alexey Ershkov Photo" width={224} height={224} className={styles.portrait} preload />
       <Title>Alexey Ershkov</Title>
       <div className={styles.subtitle}>Frontend Web Developer</div>
     </div>
