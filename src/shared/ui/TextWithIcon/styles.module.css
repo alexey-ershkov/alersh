@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem 0;
+}
+
+.icon {
+  color: rgb(239 68 68);
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}

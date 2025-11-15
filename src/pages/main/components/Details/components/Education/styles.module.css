@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 20rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 14rem;
+  }
+}
+
+.yearsColumn {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 8rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.yearText {
+  color: rgb(239 68 68);
+  font-weight: 700;
+}
+
+.educationColumn {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .educationColumn {
+    width: 16rem;
+  }
+}

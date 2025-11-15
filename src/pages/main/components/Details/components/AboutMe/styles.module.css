@@ -1,0 +1,12 @@
+.text {
+  text-align: center;
+  width: 83.333333%;
+  margin-top: 0.5rem;
+  white-space: pre-line;
+}
+
+@media (min-width: 768px) {
+  .text {
+    text-align: left;
+  }
+}
